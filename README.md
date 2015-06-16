@@ -1,15 +1,20 @@
-# WI Prune branches
-List branches that were already merged and can be safely deleted from local
-and remote.
+# WI git tools
+A collection of tools used by repository police.
 
 # Usage
 
-    pip install --user wi-prune-branches
+    pip install --user wi-git-tools
     cd ~/workspace/my_project
     prune_branches
     # verify, copy and paste the output
+    git_authors
+    # talk to the offenders who left old branches behind
 
 # CHANGELOG
+
+### [2015-06-16]
+- Join wi-git-authors in.
+- Rename to wi-git-tools
 
 ### [2015-06-15]
 - rewrite to python
